@@ -1,33 +1,33 @@
 
 # Table of Contents
 
-1.  [Handy Math](#org52e043b)
-    1.  [Sine, Cosine and Tangent](#org54b8fb8)
-        1.  [code](#org1d7a0e9)
-    2.  [Rotating 2D Points](#orgb7e579d)
-        1.  [code](#org07e2bd1)
-        2.  [Learn more](#org3e70c07)
-    3.  [Euclidean Distance Between Two Points](#org533c1d3)
-        1.  [Two dimensions](#orgef34b8e)
-        2.  [n dimensions](#org1dc0609)
-        3.  [code](#org6d75586)
-    4.  [Perspective Projection ( Fixed Camera )](#orgf8728bc)
-        1.  [code](#orgf73fef3)
-    5.  [Dot Product](#org5f220a8)
-        1.  [Two dimensions](#orgcc2a266)
-        2.  [n dimensions](#org2f3775b)
-    6.  [Cross Product](#orgd4e2df7)
-        1.  [3 dimensions](#orgb068b30)
-        2.  [code](#org5868775)
+1.  [Handy Math](#org6769606)
+    1.  [Sine, Cosine and Tangent](#org5396df3)
+        1.  [code](#org8d49617)
+    2.  [Rotating 2D Points](#org8f6878a)
+        1.  [code](#orgeed69f5)
+        2.  [Learn more](#org67c6f67)
+    3.  [Euclidean Distance Between Two Points](#orgc185894)
+        1.  [Two dimensions](#orgcc2b59c)
+        2.  [n dimensions](#org066174b)
+        3.  [code](#orga8dd6ef)
+    4.  [Perspective Projection ( Fixed Camera )](#orga1fcc12)
+        1.  [code](#orge0e766d)
+    5.  [Dot Product](#org227ccb2)
+        1.  [Two dimensions](#orgfff028d)
+        2.  [n dimensions](#orgb7b45b5)
+    6.  [Cross Product](#orga387c08)
+        1.  [3 dimensions](#org32b7b28)
+        2.  [code](#org9dfde33)
 
 
 
-<a id="org52e043b"></a>
+<a id="org6769606"></a>
 
 # Handy Math
 
 
-<a id="org54b8fb8"></a>
+<a id="org5396df3"></a>
 
 ## Sine, Cosine and Tangent
 
@@ -38,14 +38,14 @@
 ---
 
 
-<a id="org1d7a0e9"></a>
+<a id="org8d49617"></a>
 
 ### code
 
 ---
 
 
-<a id="orgb7e579d"></a>
+<a id="org8f6878a"></a>
 
 ## Rotating 2D Points
 
@@ -54,28 +54,28 @@
 ---
 
 
-<a id="org07e2bd1"></a>
+<a id="orgeed69f5"></a>
 
 ### code
 
 ---
 
 
-<a id="org3e70c07"></a>
+<a id="org67c6f67"></a>
 
 ### Learn more
 
 -   [A Gentle Primer on 2D Rotations](https://www.alanzucconi.com/2016/02/03/2d-rotations/)
 
 
-<a id="org533c1d3"></a>
+<a id="orgc185894"></a>
 
 ## Euclidean Distance Between Two Points
 
 [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) is the most intuitive, &ldquo;ordinary&rdquo; straight-line distance between two points in Euclidean space.
 
 
-<a id="orgef34b8e"></a>
+<a id="orgcc2b59c"></a>
 
 ### Two dimensions
 
@@ -83,7 +83,7 @@
 -   $distance(p,q) = \sqrt{(p_x - q_x)^2 + (p_y - q_y)^2}$
 
 
-<a id="org1dc0609"></a>
+<a id="org066174b"></a>
 
 ### n dimensions
 
@@ -93,14 +93,14 @@
 ---
 
 
-<a id="org6d75586"></a>
+<a id="orga8dd6ef"></a>
 
 ### code
 
 ---
 
 
-<a id="orgf8728bc"></a>
+<a id="orga1fcc12"></a>
 
 ## Perspective Projection ( Fixed Camera )
 
@@ -111,19 +111,19 @@
 ---
 
 
-<a id="orgf73fef3"></a>
+<a id="orge0e766d"></a>
 
 ### code
 
 ---
 
 
-<a id="org5f220a8"></a>
+<a id="org227ccb2"></a>
 
 ## Dot Product
 
 
-<a id="orgcc2a266"></a>
+<a id="orgfff028d"></a>
 
 ### Two dimensions
 
@@ -131,7 +131,7 @@
 -   $v_1 \cdot v_2 = x_1x_2 + y_1y_2$
 
 
-<a id="org2f3775b"></a>
+<a id="orgb7b45b5"></a>
 
 ### n dimensions
 
@@ -144,12 +144,12 @@
 -   If the dot product is positive, the angle between the vectors is **more** than $90\degree$
 
 
-<a id="orgd4e2df7"></a>
+<a id="orga387c08"></a>
 
 ## Cross Product
 
 
-<a id="orgb068b30"></a>
+<a id="org32b7b28"></a>
 
 ### 3 dimensions
 
@@ -162,7 +162,7 @@
 ---
 
 
-<a id="org5868775"></a>
+<a id="org9dfde33"></a>
 
 ### code
 
