@@ -63,7 +63,7 @@ const sketch = () => {
 	};
 };
 
-// --- Utils --- //
+// ---
 function drawLineWithLabel(x0, y0, x1, y1, label, align = CENTER, offsetX = 0, offsetY = 0) {
 	line(x0, y0, x1, y1);
 	let mx = (x0 + x1) / 2, my = (y0 + y1) / 2;
@@ -82,4 +82,5 @@ function drawLabel(x, y, label, align = CENTER) {
 	pop();
 }
 
+// ---
 canvasSketch(sketch, settings);
