@@ -1,0 +1,16 @@
+{
+  "name": "swmaqp",
+  "version": "1.0.0",
+  "description": "1.  [About](#org0ffa326)     1.  [Sketching with Math and Quasi Physics](#org290f91b)         1.  [Credits](#orga3fb081)         2.  [Ressources](#org0e65bf7) 2.  [Content](#org209adcf) 3.  [Tools](#orgbb628f9) 4.  [Overview](#orgbb82543)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-sketch": "^0.7.6",
+    "p5": "^1.5.0"
+  }
+}
