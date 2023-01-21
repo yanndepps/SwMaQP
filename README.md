@@ -1,36 +1,36 @@
 
 # Table of Contents
 
-1.  [About](#org0ffa326)
-    1.  [Sketching with Math and Quasi Physics](#org290f91b)
-        1.  [Credits](#orga3fb081)
-        2.  [Ressources](#org0e65bf7)
-2.  [Content](#org209adcf)
-3.  [Tools](#orgbb628f9)
-4.  [Overview](#orgbb82543)
+1.  [About](#orgf303cb6)
+    1.  [Sketching with Math and Quasi Physics](#org479135f)
+        1.  [Credits](#org156d279)
+        2.  [Ressources](#org6d7314b)
+2.  [Content](#org25681c8)
+3.  [Tools](#orgc73d4d0)
+4.  [Overview](#orgd8150e4)
 
 
 
-<a id="org0ffa326"></a>
+<a id="orgf303cb6"></a>
 
 # About
 
 
-<a id="org290f91b"></a>
+<a id="org479135f"></a>
 
 ## Sketching with Math and Quasi Physics
 
 > A collection of physics and math related samples and other materials for code-based works and animation. It is called &ldquo;quasi&rdquo; Physics because the goal is not to understand the world or solve problems properly, but is to sketch something that looks interesting regardless of it is accurate or not.
 
 
-<a id="orga3fb081"></a>
+<a id="org156d279"></a>
 
 ### Credits
 
 ©[kynd](https://twitter.com/kyndinfo)
 
 
-<a id="org0e65bf7"></a>
+<a id="org6d7314b"></a>
 
 ### Ressources
 
@@ -38,14 +38,15 @@
 -   [sketches](https://kynd.github.io/p5sketches/index.html)
 
 
-<a id="org209adcf"></a>
+<a id="org25681c8"></a>
 
 # Content
 
 1.  [Handy Math](src/U1/README.md)
+2.  [Taming Randomness](src/U2/README.md)
 
 
-<a id="orgbb628f9"></a>
+<a id="orgc73d4d0"></a>
 
 # Tools
 
@@ -53,7 +54,7 @@
 -   [p5.js](https://p5js.org/)
 
 
-<a id="orgbb82543"></a>
+<a id="orgd8150e4"></a>
 
 # Overview
 
