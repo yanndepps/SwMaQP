@@ -23,7 +23,7 @@ const sketch = () => {
 	pA = createVector(0, -80);
 	pB = createVector(100, 0);
 	pC = createVector(-100, 100);
-	return ({ width, height, canvasHeight }) => {
+	return ({ width, height }) => {
 		clear();
 		background(15, 157, 88);
 		//---
