@@ -1,44 +1,44 @@
 
 # Table of Contents
 
-1.  [Notes](#org3d9e5c6)
-2.  [Handy Math](#org4087cb7)
-    1.  [Sine, Cosine and Tangent](#org50df386)
-        1.  [code](#org0f5f027)
-    2.  [Rotating 2D Points](#org61410c9)
-        1.  [code](#orgb00e7f1)
-        2.  [Learn more](#orgfc2c070)
-    3.  [Euclidean Distance Between Two Points](#orgd46a93e)
-        1.  [Two dimensions](#orgaf74938)
-        2.  [n dimensions](#orgfdb56e0)
-        3.  [code](#org41833d2)
-    4.  [Manhattan Distance Between Two Points](#orgb1d7102)
-        1.  [Two dimensions](#orga7441ae)
-        2.  [code](#org877f6d6)
-    5.  [Perspective Projection ( Fixed Camera )](#orgf0db7fb)
-        1.  [code](#org259793b)
-    6.  [Dot Product](#org5835ae4)
-        1.  [Two dimensions](#org4e89642)
-        2.  [n dimensions](#org285dda7)
-    7.  [Cross Product](#org8a8a7fd)
-        1.  [3 dimensions](#org9e76cb2)
-        2.  [code](#orgd35f8c9)
+1.  [Notes](#orgd8c208f)
+2.  [Handy Math](#org620c36b)
+    1.  [Sine, Cosine and Tangent](#org921096b)
+        1.  [code](#org4d800b0)
+    2.  [Rotating 2D Points](#org3860123)
+        1.  [code](#org8a38b34)
+        2.  [Learn more](#orgad54122)
+    3.  [Euclidean Distance Between Two Points](#org6f10768)
+        1.  [Two dimensions](#orgcfc96b1)
+        2.  [n dimensions](#org21533c9)
+        3.  [code](#org340f367)
+    4.  [Manhattan Distance Between Two Points](#orgcd5d8fa)
+        1.  [Two dimensions](#orgd32b984)
+        2.  [code](#org49ccbf5)
+    5.  [Perspective Projection ( Fixed Camera )](#org9684b17)
+        1.  [code](#org7adf2de)
+    6.  [Dot Product](#org03f8c3f)
+        1.  [Two dimensions](#org646fafd)
+        2.  [n dimensions](#org69cfc9a)
+    7.  [Cross Product](#orgbb5263d)
+        1.  [3 dimensions](#org3bcb145)
+        2.  [code](#org0df6d1f)
 
 
 
-<a id="org3d9e5c6"></a>
+<a id="orgd8c208f"></a>
 
 # Notes
 
 It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render in Github markdown &#x2026;
 
 
-<a id="org4087cb7"></a>
+<a id="org620c36b"></a>
 
 # Handy Math
 
 
-<a id="org50df386"></a>
+<a id="org921096b"></a>
 
 ## Sine, Cosine and Tangent
 
@@ -49,14 +49,14 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="org0f5f027"></a>
+<a id="org4d800b0"></a>
 
 ### [code](js/sketch_01.js)
 
 ---
 
 
-<a id="org61410c9"></a>
+<a id="org3860123"></a>
 
 ## Rotating 2D Points
 
@@ -65,28 +65,28 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="orgb00e7f1"></a>
+<a id="org8a38b34"></a>
 
 ### [code](js/sketch_02.js)
 
 ---
 
 
-<a id="orgfc2c070"></a>
+<a id="orgad54122"></a>
 
 ### Learn more
 
 -   [A Gentle Primer on 2D Rotations](https://www.alanzucconi.com/2016/02/03/2d-rotations/)
 
 
-<a id="orgd46a93e"></a>
+<a id="org6f10768"></a>
 
 ## Euclidean Distance Between Two Points
 
 [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) is the most intuitive, &ldquo;ordinary&rdquo; straight-line distance between two points in Euclidean space.
 
 
-<a id="orgaf74938"></a>
+<a id="orgcfc96b1"></a>
 
 ### Two dimensions
 
@@ -94,7 +94,7 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 -   $distance(p,q) = \sqrt{(p_x - q_x)^2 + (p_y - q_y)^2}$
 
 
-<a id="orgfdb56e0"></a>
+<a id="org21533c9"></a>
 
 ### n dimensions
 
@@ -104,14 +104,14 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="org41833d2"></a>
+<a id="org340f367"></a>
 
 ### [code](js/sketch_03.js)
 
 ---
 
 
-<a id="orgb1d7102"></a>
+<a id="orgcd5d8fa"></a>
 
 ## Manhattan Distance Between Two Points
 
@@ -120,7 +120,7 @@ In mathematics, distance is defined by a [function called distance function or m
 [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry) is an example of a non-Euclidean distance, which is the sum of the absolute differences of their Cartesian coordinate, or the distance a car whould drive in a city laid out in square blocks.
 
 
-<a id="orga7441ae"></a>
+<a id="orgd32b984"></a>
 
 ### Two dimensions
 
@@ -130,14 +130,14 @@ In mathematics, distance is defined by a [function called distance function or m
 ---
 
 
-<a id="org877f6d6"></a>
+<a id="org49ccbf5"></a>
 
 ### [code](js/sketch_04.js)
 
 ---
 
 
-<a id="orgf0db7fb"></a>
+<a id="org9684b17"></a>
 
 ## Perspective Projection ( Fixed Camera )
 
@@ -148,19 +148,19 @@ In mathematics, distance is defined by a [function called distance function or m
 ---
 
 
-<a id="org259793b"></a>
+<a id="org7adf2de"></a>
 
-### code
+### [code](js/sketch_05.js)
 
 ---
 
 
-<a id="org5835ae4"></a>
+<a id="org03f8c3f"></a>
 
 ## Dot Product
 
 
-<a id="org4e89642"></a>
+<a id="org646fafd"></a>
 
 ### Two dimensions
 
@@ -168,7 +168,7 @@ In mathematics, distance is defined by a [function called distance function or m
 -   $v_1 \cdot v_2 = x_1x_2 + y_1y_2$
 
 
-<a id="org285dda7"></a>
+<a id="org69cfc9a"></a>
 
 ### n dimensions
 
@@ -181,12 +181,12 @@ In mathematics, distance is defined by a [function called distance function or m
 -   If the dot product is positive, the angle between the vectors is **more** than $90\degree$
 
 
-<a id="org8a8a7fd"></a>
+<a id="orgbb5263d"></a>
 
 ## Cross Product
 
 
-<a id="org9e76cb2"></a>
+<a id="org3bcb145"></a>
 
 ### 3 dimensions
 
@@ -199,7 +199,7 @@ In mathematics, distance is defined by a [function called distance function or m
 ---
 
 
-<a id="orgd35f8c9"></a>
+<a id="org0df6d1f"></a>
 
 ### code
 
