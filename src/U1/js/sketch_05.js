@@ -113,6 +113,7 @@ function project(v, nearClip, cameraZ) {
 	let r = abs(cameraZ - nearClip) / abs(cameraZ - v.z);
 	return new p5.Vector(v.x * r, v.y * r);
 }
+
 function drawCircleMarker(p, size) {
 	ellipse(p.x, p.y, size * 2, size * 2);
 }
