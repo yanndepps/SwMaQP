@@ -7,7 +7,7 @@
 const canvasSketch = require('canvas-sketch');
 const p5 = require('p5');
 new p5();
-;
+
 const settings = {
 	p5: true,
 	context: '2d',
