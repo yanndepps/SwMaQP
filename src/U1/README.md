@@ -1,41 +1,41 @@
 
 # Table of Contents
 
-1.  [Notes](#org9b730ad)
-2.  [Handy Math](#org3016872)
-    1.  [Sine, Cosine and Tangent](#orge773210)
-        1.  [code](#orgadebb78)
-    2.  [Rotating 2D Points](#orgc17ddbc)
-        1.  [code](#orga101c97)
-        2.  [Learn more](#orgc72706f)
-    3.  [Euclidean Distance Between Two Points](#org90b8c6f)
-        1.  [Two dimensions](#org2e22a3e)
-        2.  [n dimensions](#orge8b64b1)
-        3.  [code](#orgfd42b17)
-    4.  [Perspective Projection ( Fixed Camera )](#org677e5d4)
-        1.  [code](#org472276a)
-    5.  [Dot Product](#org89feb02)
-        1.  [Two dimensions](#org39e95e5)
-        2.  [n dimensions](#org0654ecc)
-    6.  [Cross Product](#org5b4c15c)
-        1.  [3 dimensions](#org5e3188f)
-        2.  [code](#orgd4ed073)
+1.  [Notes](#orgb909f66)
+2.  [Handy Math](#org0f81947)
+    1.  [Sine, Cosine and Tangent](#orga007365)
+        1.  [code](#orgfe69171)
+    2.  [Rotating 2D Points](#org785a501)
+        1.  [code](#org8944f1a)
+        2.  [Learn more](#orgfb46418)
+    3.  [Euclidean Distance Between Two Points](#orgf4930a3)
+        1.  [Two dimensions](#orgc0b1d2c)
+        2.  [n dimensions](#org78fe7e0)
+        3.  [code](#org5cf2ec5)
+    4.  [Perspective Projection ( Fixed Camera )](#org9faf70f)
+        1.  [code](#org3c18c04)
+    5.  [Dot Product](#org68041b7)
+        1.  [Two dimensions](#org92cc37f)
+        2.  [n dimensions](#orgb0808ae)
+    6.  [Cross Product](#org380f35f)
+        1.  [3 dimensions](#orgf22df5e)
+        2.  [code](#orgccac72c)
 
 
 
-<a id="org9b730ad"></a>
+<a id="orgb909f66"></a>
 
 # Notes
 
 It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render in Github markdown &#x2026;
 
 
-<a id="org3016872"></a>
+<a id="org0f81947"></a>
 
 # Handy Math
 
 
-<a id="orge773210"></a>
+<a id="orga007365"></a>
 
 ## Sine, Cosine and Tangent
 
@@ -46,14 +46,14 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="orgadebb78"></a>
+<a id="orgfe69171"></a>
 
 ### [code](js/sketch_01.js)
 
 ---
 
 
-<a id="orgc17ddbc"></a>
+<a id="org785a501"></a>
 
 ## Rotating 2D Points
 
@@ -62,28 +62,28 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="orga101c97"></a>
+<a id="org8944f1a"></a>
 
-### code
+### [code](js/sketch_02.js)
 
 ---
 
 
-<a id="orgc72706f"></a>
+<a id="orgfb46418"></a>
 
 ### Learn more
 
 -   [A Gentle Primer on 2D Rotations](https://www.alanzucconi.com/2016/02/03/2d-rotations/)
 
 
-<a id="org90b8c6f"></a>
+<a id="orgf4930a3"></a>
 
 ## Euclidean Distance Between Two Points
 
 [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) is the most intuitive, &ldquo;ordinary&rdquo; straight-line distance between two points in Euclidean space.
 
 
-<a id="org2e22a3e"></a>
+<a id="orgc0b1d2c"></a>
 
 ### Two dimensions
 
@@ -91,7 +91,7 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 -   $distance(p,q) = \sqrt{(p_x - q_x)^2 + (p_y - q_y)^2}$
 
 
-<a id="orge8b64b1"></a>
+<a id="org78fe7e0"></a>
 
 ### n dimensions
 
@@ -101,14 +101,14 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="orgfd42b17"></a>
+<a id="org5cf2ec5"></a>
 
-### [code](js/sketch_02.js)
+### [code](js/sketch_03.js)
 
 ---
 
 
-<a id="org677e5d4"></a>
+<a id="org9faf70f"></a>
 
 ## Perspective Projection ( Fixed Camera )
 
@@ -119,19 +119,19 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="org472276a"></a>
+<a id="org3c18c04"></a>
 
 ### code
 
 ---
 
 
-<a id="org89feb02"></a>
+<a id="org68041b7"></a>
 
 ## Dot Product
 
 
-<a id="org39e95e5"></a>
+<a id="org92cc37f"></a>
 
 ### Two dimensions
 
@@ -139,7 +139,7 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 -   $v_1 \cdot v_2 = x_1x_2 + y_1y_2$
 
 
-<a id="org0654ecc"></a>
+<a id="orgb0808ae"></a>
 
 ### n dimensions
 
@@ -152,12 +152,12 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 -   If the dot product is positive, the angle between the vectors is **more** than $90\degree$
 
 
-<a id="org5b4c15c"></a>
+<a id="org380f35f"></a>
 
 ## Cross Product
 
 
-<a id="org5e3188f"></a>
+<a id="orgf22df5e"></a>
 
 ### 3 dimensions
 
@@ -170,7 +170,7 @@ It seems that the `\begin{bmatrix}` function still doesn&rsquo;t properly render
 ---
 
 
-<a id="orgd4ed073"></a>
+<a id="orgccac72c"></a>
 
 ### code
 
