@@ -1,27 +1,43 @@
 
 # Table of Contents
 
-1.  [Taming Randomness](#orgd376832)
-    1.  [Uniform Random](#org21b6602)
-        1.  [code](#org8aeb7c6)
+1.  [Taming Randomness](#org29f9507)
+    1.  [Uniform Random](#org236e447)
+        1.  [code](#org94bb496)
+    2.  [$Random^2$](#org0b3abbb)
+        1.  [code](#org857469d)
 
 
 
-<a id="orgd376832"></a>
+<a id="org29f9507"></a>
 
 # Taming Randomness
 
 
-<a id="org21b6602"></a>
+<a id="org236e447"></a>
 
 ## Uniform Random
 
     let v = random(1);
 
 
-<a id="org8aeb7c6"></a>
+<a id="org94bb496"></a>
 
 ### [code](js/sketch_01.js)
+
+---
+
+
+<a id="org0b3abbb"></a>
+
+## $Random^2$
+
+    let v = pow(random(1), 2);
+
+
+<a id="org857469d"></a>
+
+### code
 
 ---
 
