@@ -28,6 +28,23 @@ const sketch = () => {
 		background(254, 253, 183);
 		//---
 		let v;
+		for (let i = 0; i < resolution; i++) {
+			v = nextRandom();
+			line(v * width, 0, v * width, height);
+		}
+
+		//---
+		fill(0);
+		stroke(0);
+		for (let i = 0; i < resolution; i++) {
+			let w = width / resolution;
+			let h = height / max * record[i];
+			let x = w * i;
+			let y = height - h;
+			rect(x, y, w, h);
+		}
+
+		if (frame % 600 == 0) { initRecord(); }
 	};
 };
 
