@@ -1,6 +1,6 @@
 /*
  * Sketching with Math and Quasi Physics
- * Sketch_01 -> Uniform Random
+ * Sketch_02 -> Random2
  * ©kynd
  */
 
@@ -44,11 +44,10 @@ const sketch = () => {
 			rect(x, y, w, h);
 		}
 
-		if (frame % 600 == 0) {
-			initRecord();
-		}
+		if (frame % 600 == 0) { initRecord(); }
 	};
 };
+
 
 // ---
 function initRecord() {
@@ -65,7 +64,7 @@ function initRecord() {
 }
 
 function nextRandom() {
-	let v = random(1);
+	let v = pow(random(1), 2);
 	if (++record[floor(v * resolution)] > max) { max++; }
 	return v;
 }
