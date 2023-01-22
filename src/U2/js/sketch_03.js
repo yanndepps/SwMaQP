@@ -1,6 +1,6 @@
 /*
  * Sketching with Math and Quasi Physics
- * Sketch_02 -> Random2
+ * Sketch_03 -> Random_N
  * ©kynd
  */
 
@@ -15,39 +15,17 @@ const settings = {
 	animate: true
 };
 
-let record, max;
-let resolution = 150;
+let font;
+window.preload = () => {
+	font = loadFont('../../../assets/font/bauhaus.otf');
+}
 
 const sketch = () => {
-	initRecord();
-	for (let i = 0; i < resolution * 10; i++) {
-		nextRandom();
-	}
-	//---
 	return ({ frame, width, height }) => {
 		clear();
 		background(254, 253, 183);
-		//---
-		let v;
-		for (let i = 0; i < resolution; i++) {
-			v = nextRandom();
-			line(v * width, 0, v * width, height);
-		}
-
-		fill(0);
-		stroke(0);
-		for (let i = 0; i < resolution; i++) {
-			let w = width / resolution;
-			let h = height / max * record[i];
-			let x = w * i;
-			let y = height - h;
-			rect(x, y, w, h);
-		}
-
-		if (frame % 600 == 0) { initRecord(); }
 	};
 };
-
 
 // ---
 function initRecord() {

@@ -1,91 +1,91 @@
 
 # Table of Contents
 
-1.  [Taming Randomness](#org9bb49c0)
-    1.  [Uniform Random](#org0bfac03)
-        1.  [code](#orgc3ce8f4)
-    2.  [Random<sup>2</sup>](#org3f21073)
-        1.  [code](#orgd462575)
-    3.  [Random<sup>N</sup>](#orga114d12)
-        1.  [code](#org17db8ba)
-    4.  [( Random + Random ) / 2](#org9e41a08)
-        1.  [code](#org87424ae)
-    5.  [( Random<sub>1</sub> + Random<sub>2</sub> + &#x2026; + Random<sub>N</sub> ) / 2](#org75f0c68)
-        1.  [code](#org22bf36e)
-    6.  [Normal Distribution ( Gaussian )](#org727233c)
-        1.  [code](#orgfa3bba4)
-    7.  [Perlin Noise](#orga8ada74)
-        1.  [Distribution](#org708bfb7)
-            1.  [code](#org16dcf33)
-        2.  [Variation over time](#org55d6535)
-            1.  [code](#org2db3651)
-    8.  [Random Walkers](#org7fcdd4c)
-        1.  [code](#org20062a7)
+1.  [Taming Randomness](#org8c7d8db)
+    1.  [Uniform Random](#org3200263)
+        1.  [code](#org20fdbe2)
+    2.  [Random<sup>2</sup>](#orgc7be51e)
+        1.  [code](#orge94266d)
+    3.  [Random<sup>N</sup>](#orgc7f4015)
+        1.  [code](#orgb31a1ca)
+    4.  [( Random + Random ) / 2](#orgaa91cc7)
+        1.  [code](#orgc0984d6)
+    5.  [( Random<sub>1</sub> + Random<sub>2</sub> + &#x2026; + Random<sub>N</sub> ) / 2](#org1e6554a)
+        1.  [code](#orgf674bbf)
+    6.  [Normal Distribution ( Gaussian )](#org206f7c7)
+        1.  [code](#org1dcdf69)
+    7.  [Perlin Noise](#org3583038)
+        1.  [Distribution](#org63f02bd)
+            1.  [code](#org948afd2)
+        2.  [Variation over time](#orge327398)
+            1.  [code](#org4675804)
+    8.  [Random Walkers](#orge4e1ac2)
+        1.  [code](#orge1160ca)
 
 
 
-<a id="org9bb49c0"></a>
+<a id="org8c7d8db"></a>
 
 # Taming Randomness
 
 
-<a id="org0bfac03"></a>
+<a id="org3200263"></a>
 
 ## Uniform Random
 
     let v = random(1);
 
 
-<a id="orgc3ce8f4"></a>
+<a id="org20fdbe2"></a>
 
 ### [code](js/sketch_01.js)
 
 ---
 
 
-<a id="org3f21073"></a>
+<a id="orgc7be51e"></a>
 
 ## Random<sup>2</sup>
 
     let v = pow(random(1), 2);
 
 
-<a id="orgd462575"></a>
+<a id="orge94266d"></a>
 
 ### [code](js/sketch_02.js)
 
 ---
 
 
-<a id="orga114d12"></a>
+<a id="orgc7f4015"></a>
 
 ## Random<sup>N</sup>
 
     let v = pow(random(1), n);
 
 
-<a id="org17db8ba"></a>
+<a id="orgb31a1ca"></a>
 
-### code
+### [code](js/sketch_03.js)
 
 ---
 
 
-<a id="org9e41a08"></a>
+<a id="orgaa91cc7"></a>
 
 ## ( Random + Random ) / 2
 
     let v = ( random(1) + random(1) ) / 2;
 
 
-<a id="org87424ae"></a>
+<a id="orgc0984d6"></a>
 
 ### code
 
 ---
 
 
-<a id="org75f0c68"></a>
+<a id="org1e6554a"></a>
 
 ## ( Random<sub>1</sub> + Random<sub>2</sub> + &#x2026; + Random<sub>N</sub> ) / 2
 
@@ -96,14 +96,14 @@
     v /= n;
 
 
-<a id="org22bf36e"></a>
+<a id="orgf674bbf"></a>
 
 ### code
 
 ---
 
 
-<a id="org727233c"></a>
+<a id="org206f7c7"></a>
 
 ## Normal Distribution ( Gaussian )
 
@@ -115,19 +115,19 @@
 -   **note** : [randomGaussian()](https://p5js.org/reference/#/p5/randomGaussian) is available in p5.js
 
 
-<a id="orgfa3bba4"></a>
+<a id="org1dcdf69"></a>
 
 ### code
 
 ---
 
 
-<a id="orga8ada74"></a>
+<a id="org3583038"></a>
 
 ## Perlin Noise
 
 
-<a id="org708bfb7"></a>
+<a id="org63f02bd"></a>
 
 ### Distribution
 
@@ -136,33 +136,33 @@
 -   **note** : see [noise()](https://p5js.org/reference/#/p5/noise) function in p5.js
 
 
-<a id="org16dcf33"></a>
+<a id="org948afd2"></a>
 
 #### code
 
 ---
 
 
-<a id="org55d6535"></a>
+<a id="orge327398"></a>
 
 ### Variation over time
 
     let v = noise(x); x += 0.01;
 
 
-<a id="org2db3651"></a>
+<a id="org4675804"></a>
 
 #### code
 
 ---
 
 
-<a id="org7fcdd4c"></a>
+<a id="orge4e1ac2"></a>
 
 ## Random Walkers
 
 
-<a id="org20062a7"></a>
+<a id="orge1160ca"></a>
 
 ### code
 
